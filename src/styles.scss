@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "theme.scss";
+@import "~github-markdown-css/github-markdown";
+@include mat-core();
+@include angular-material-theme($design2019);
+
+body{
+    margin: 0%;
+}
