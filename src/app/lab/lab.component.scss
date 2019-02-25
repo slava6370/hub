@@ -1,0 +1,26 @@
+.markdown-body {
+    box-sizing: border-box;
+    min-width: 200px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 45px;
+}
+
+.labs-container {
+    padding: 5px;
+}
+
+.lab-item {
+    padding: 5px;
+}
+
+mat-expansion-panel-header {
+    height: 100% !important;
+    min-height: 56px;
+}
+
+@media (max-width: 767px) {
+    .markdown-body {
+        padding: 15px;
+    }
+}
